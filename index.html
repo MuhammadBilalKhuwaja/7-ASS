@@ -12,7 +12,7 @@
 
     
     
-    <button onclick="getAlert()" class="btn btn-success btn-1">1st Task</button>
+    <button onclick="getAlert()" class="btn btn-success btn-1 m-2">1st Task</button>
     <br>
     <br>
 
@@ -35,23 +35,25 @@
     alt="" height="200px" width="300px">
     <br>
     <br>
-    <button onclick="changePicture()" id="change-pic">Change Picture</button>
+    <button class="btn btn-outline-success m-3" onclick="changePicture()" id="change-pic">Change Picture</button>
 
     <h2>A Random Quote on a click of a button</h2>
-    <button id="quote-generator" onclick="quoteGenerator()">Generate a special Quote for you</button>
+    <button class="btn btn-outline-secondary m-3"  id="quote-generator" onclick="quoteGenerator()">Generate a special Quote for you</button>
     <h3 id="enter-innerText"></h3>
     <br>
     <br>
 
-    <input type="text" id="userInput">
-    <button onclick="lenght()">Show Length</button>
+
+    <!-- <input type="text" id="userInput"> -->
+    <input type="text" id="userInput" class="form-control" aria-label="First name">
+    <button class="btn btn-primary btn-sm m-3" onclick="lenght()">Show Length</button>
     <h4 id="displayLength"></h4>
     <br>
     <br>
 
 
 
-    <button id="dateAndTime">Get Current Date and Time</button>
+    <button class="btn btn-outline-secondary m-3" id="dateAndTime">Get Current Date and Time</button>
     <h3 id="CurrentDT"></h3>
 
 
