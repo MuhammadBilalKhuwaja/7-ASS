@@ -6,3 +6,12 @@
     padding: 20px;
     transition: 100s;
 } */
+
+#body{
+    text-align: center;
+}
+
+.btn-1{
+    /* padding: 20px !important; */
+    margin-top: 20px !important;
+}
